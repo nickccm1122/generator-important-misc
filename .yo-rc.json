@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Nick Chan",
+      "authorEmail": "nick.ccm1122@gmail.com",
+      "authorUrl": "https://mingisaniceguy.com"
+    }
+  }
+}
