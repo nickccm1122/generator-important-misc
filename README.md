@@ -1,7 +1,7 @@
 # generator-important-misc 
 
-[![Build Status](https://travis-ci.org/nickccm1122/generator-important-misc.svg?branch=master)](https://travis-ci.org/nickccm1122/generator-important-misc)
 [![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 
 > Create linter/formatter/githook into your project
