@@ -1,0 +1,9 @@
+[github/gitignore]
+Node.gitignore
+Global/macOS.gitignore
+Global/Linux.gitignore
+Global/Windows.gitignore
+
+[inline]
+node_modules
+coverage
