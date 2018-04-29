@@ -78,6 +78,15 @@ const defaultInstalled = [
       '*ignore-sync': ['ignore-sync', 'git add'],
       '*.md': ['markdownlint', 'git add']
     }
+  },
+  {
+    name: 'nsp-check',
+    devDependencies: {
+      nsp: '^2.6.3'
+    },
+    scripts: {
+      prepublish: 'nsp check'
+    }
   }
 ];
 
