@@ -30,6 +30,7 @@ yo important-misc
 - [commitlint](commitlint-link) Lint commit messages
 - [import-sort](import-sort-link)
 - [lint-staged](lint-staged-link)
+- [nsp](nsp-link) Helps you keep your node applications secure
 
 ### Default created/updated files
 
@@ -60,10 +61,12 @@ package.json
 +    "lint-staged": "^7.0.0"
   },
   "scripts": {
++    "prepublish": "nsp check",
 +    "ignore-sync": "ignore-sync",
 +    "commitmsg": "commitlint -e $GIT_PARAMS",
 +    "lint-staged": "lint-staged",
-+    "precommit": "lint-staged"
++    "precommit": "lint-staged",
++    "nsp": "^2.6.3"
   },
 +  "importSort": {
 +    ".js": {
@@ -106,3 +109,4 @@ MIT © [Nick Chan](https://mingisaniceguy.com)
 [commitlint-link]: https://github.com/marionebl/commitlint
 [import-sort-link]: https://github.com/renke/import-sort
 [lint-staged-link]: https://github.com/okonet/lint-staged
+[nsp-link]: https://github.com/nodesecurity/nsp
