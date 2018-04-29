@@ -8,13 +8,9 @@
     "email": "nick.ccm1122@gmail.com",
     "url": "https://mingisaniceguy.com"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
-  "keywords": [
-    "yeoman-generator"
-  ],
+  "keywords": ["yeoman-generator"],
   "devDependencies": {
     "@commitlint/cli": "^6.1.3",
     "@commitlint/config-conventional": "^6.1.3",
@@ -42,31 +38,21 @@
     "testEnvironment": "node"
   },
   "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "ignore-sync": "ignore-sync",
+    "precommit": "lint-staged",
     "prepublish": "nsp check",
     "pretest": "eslint .",
-    "precommit": "lint-staged",
-    "test": "jest",
-    "ignore-sync": "ignore-sync",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "*ignore": [
-      "ignore-sync"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"],
+    "*ignore": ["ignore-sync"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -80,9 +66,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "nickccm1122/generator-important-misc",
   "license": "MIT"
