@@ -25,12 +25,12 @@ yo important-misc
 ## What is included
 
 - [editorconfig][editorconfig-link]
-- [ignore-sync](ignore-sync-link) CLI tool to build and sync .*ignore files across files and repositories
-- [markdownlint](markdownlint-link) Markdown lint tool
-- [commitlint](commitlint-link) Lint commit messages
-- [import-sort](import-sort-link)
-- [lint-staged](lint-staged-link)
-- [nsp](nsp-link) Helps you keep your node applications secure
+- [ignore-sync][ignore-sync-link] CLI tool to build and sync .*ignore files across files and repositories
+- [markdownlint][markdownlint-link] Markdown lint tool
+- [commitlint][commitlint-link] Lint commit messages
+- [import-sort][import-sort-link]
+- [lint-staged][lint-staged-link]
+- [nsp][nsp-link] Helps you keep your node applications secure
 
 ### Default created/updated files
 
